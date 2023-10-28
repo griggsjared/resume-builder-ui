@@ -27,7 +27,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body className={`font-sans ${fontSans.variable}`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
